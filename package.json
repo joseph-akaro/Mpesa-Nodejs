@@ -1,0 +1,32 @@
+{
+  "name": "mpesa-nodejs",
+  "version": "1.0.0",
+  "description": "This is Mpesa PUSH Integration with Nodejs",
+  "main": "main.js",
+  "scripts": {
+    "start": "main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph-akaro/Mpesa-Nodejs.git"
+  },
+  "keywords": [
+    "Mpesa PUSH",
+    "Mpesa Kenya",
+    "Mpesa API"
+  ],
+  "author": "Joseph Akaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseph-akaro/Mpesa-Nodejs/issues"
+  },
+  "homepage": "https://github.com/joseph-akaro/Mpesa-Nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0"
+  }
+}
